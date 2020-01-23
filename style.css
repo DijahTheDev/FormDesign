@@ -1,0 +1,28 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+fieldset {
+  border: none;
+  background: rgba(82, 154, 205);
+}
+body {
+  color: rgb(234, 234, 234);
+  font-family: arial, sans;
+}
+
+::placeholder {
+  color: rgb(62, 93, 115);
+  font-family: arial, sans;
+}
+
+input {
+  background: rgba(82, 154, 205);
+  color: rgb(234, 234, 234);
+}
+
+label {
+  display: block;
+  font-size: 12px;
+}
