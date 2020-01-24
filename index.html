@@ -9,9 +9,9 @@
   </head>
   <body>
     <form action="" method="post">
-      <section class="form-group">
+      <section class="gr1">
         <fieldset>
-          <label for="fname">First Name</label>
+          <label for="fname">FIRST NAME</label>
           <input type="text" placeholder="Michael" id="fname" name="fname" />
         </fieldset>
         <fieldset>
@@ -19,15 +19,38 @@
           <input type="text" placeholder="Sweeney" id="lname" name="lname" />
         </fieldset>
         <fieldset>
-          <label for="email">Email Address</label>
+          <label for="email">EMAIL ADDRESS</label>
           <input
             type="email"
-            placeholder="hi@gmail.com"
+            placeholder="mike@punchcode.com"
             id="email"
             name="email"
           />
         </fieldset>
-        <fieldset></fieldset>
+        <select name="country" id="country">
+          <option>Choose a country</option>
+          <option value="USA">USA</option>
+          <option value="Mexico">Mexico</option>
+        </select>
+        <fieldset>
+          <label for="country">BIOGRAPHY</label>
+          <textarea name="bio"></textarea>
+        </fieldset>
+      </section>
+      <section class="g2">
+        <fieldset>
+          <label for="phone">PHONE NUMBER</label>
+          <input
+            type="tel"
+            placeholder="+351 999 9999"
+            id="phone"
+            name="phone"
+          />
+        </fieldset>
+        <fieldset>
+          <label for="affil">AFFILIATIONS</label>
+          <textarea name="affil"></textarea>
+        </fieldset>
       </section>
     </form>
   </body>
