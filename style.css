@@ -1,6 +1,6 @@
 form {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 330px 330px 330px;
 }
 
 fieldset {
@@ -44,6 +44,10 @@ select {
   background: rgba(82, 154, 205);
   outline: none;
   width: 300px;
+  color: rgb(234, 234, 234);
+  font-size: 12px;
+  font-family: arial, sans;
+  font-weight: bold;
 }
 
 select:focus {
@@ -64,4 +68,8 @@ textarea {
 }
 textarea:focus {
   outline: 2px solid green;
+}
+
+.fieldset {
+  column-gap: 0px 0px;
 }
